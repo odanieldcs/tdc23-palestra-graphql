@@ -1,0 +1,212 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "John Doe",
+			"email": "jon.doe@site.com",
+			"age": 33
+		},
+		{
+			"id": 2,
+			"name": "Dan Doe",
+			"email": "dan.doe@site.com",
+			"age": 55
+		},
+		{
+			"id": 3,
+			"name": "Maria Doe",
+			"email": "maria.doe@site.com",
+			"age": 44
+		}
+	],
+	"contracts": [
+		{
+			"id": 1,
+			"userId": 1,
+			"amount": 1200,
+			"date": "2023-01-01",
+			"contractNumber": "123456789",
+			"status": "ongoing"
+		},
+		{
+			"id": 2,
+			"userId": 2,
+			"amount": 1200,
+			"date": "2023-01-01",
+			"contractNumber": "123456789",
+			"status": "ongoing"
+		},
+		{
+			"id": 3,
+			"userId": 2,
+			"amount": 1099,
+			"date": "2022-01-01",
+			"contractNumber": "321789456",
+			"status": "completed"
+		},
+		{
+			"id": 4,
+			"userId": 3,
+			"amount": 1200,
+			"date": "2023-01-01",
+			"contractNumber": "123456789",
+			"status": "ongoing"
+		}
+	],
+	"invoices": [
+		{
+			"id": 1,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-01-01",
+			"status": "paid"
+		},
+		{
+			"id": 2,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-02-01",
+			"status": "paid"
+		},
+		{
+			"id": 3,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-03-01",
+			"status": "paid"
+		},
+		{
+			"id": 4,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-04-01",
+			"status": "paid"
+		},
+		{
+			"id": 5,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-05-01",
+			"status": "paid"
+		},
+		{
+			"id": 6,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-06-01",
+			"status": "paid"
+		},
+		{
+			"id": 7,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-07-01",
+			"status": "paid"
+		},
+		{
+			"id": 8,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-08-01",
+			"status": "paid"
+		},
+		{
+			"id": 9,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-09-01",
+			"status": "paid"
+		},
+		{
+			"id": 10,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-10-01",
+			"status": "paid"
+		},
+		{
+			"id": 11,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-11-01",
+			"status": "pending"
+		},
+		{
+			"id": 12,
+			"contractId": 1,
+			"amount": 100,
+			"date": "2021-12-01",
+			"status": "pending"
+		},
+		{
+			"id": 13,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-01-01",
+			"status": "paid"
+		},
+		{
+			"id": 14,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-02-01",
+			"status": "paid"
+		},
+		{
+			"id": 15,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-03-01",
+			"status": "paid"
+		},
+		{
+			"id": 16,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-04-01",
+			"status": "paid"
+		},
+		{
+			"id": 17,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-05-01",
+			"status": "paid"
+		},
+		{
+			"id": 18,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-06-01",
+			"status": "paid"
+		},
+		{
+			"id": 19,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-07-01",
+			"status": "paid"
+		},
+		{
+			"id": 20,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-08-01",
+			"status": "paid"
+		},
+		{
+			"id": 21,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-09-01",
+			"status": "paid"
+		},
+		{
+			"id": 22,
+			"contractId": 2,
+			"amount": 100,
+			"date": "2021-10-01",
+			"status": "pending"
+		}
+	]
+}
