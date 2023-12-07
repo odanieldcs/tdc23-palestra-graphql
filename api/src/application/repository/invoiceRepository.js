@@ -1,7 +1,8 @@
 const database = require('../../../data/database.json');
 
-function getAllInvoices() {
-	return database.invoices;
+function getAllInvoices(limit) {
+	const invoices = database.invoices.slice(0, limit);
+	return invoices;
 }
 
 function getInvoicesByContract(contractId) {

@@ -1,6 +1,7 @@
 const userRepository = require('../../application/repository/userRepository');
 const userGetOne = require('../../application/useCase/User/getOne');
 const userGetAll = require('../../application/useCase/User/getAll');
+const invoiceGetAll = require('../../application/useCase/Invoice/getAll');
 
 module.exports = {
 	hello() {
@@ -16,8 +17,19 @@ module.exports = {
 	},
 	message(parent, args) {
 		const { text } = args;
-		console.log(text);
 
 		return text;
+	},
+	contracts(parent, args) {
+		const { limit } = args;
+		const contracts = invoiceGetAll.execute(limit);
+
+		return contracts;
+	},
+	invoices(parent, args) {
+		const { limit } = args;
+		const invoices = invoiceGetAll.execute(limit);
+
+		return invoices;
 	},
 };

@@ -1,7 +1,9 @@
 const paymentRepository = require('../../repository/invoiceRepository');
 
-function execute() {
-	return paymentRepository.getAllInvoices();
+function execute(limit) {
+	return paymentRepository.getAllInvoices(limit);
 }
 
-module.exports = execute;
+module.exports = {
+	execute,
+};

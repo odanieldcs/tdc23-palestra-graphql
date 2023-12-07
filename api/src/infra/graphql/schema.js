@@ -52,6 +52,12 @@ const ContractType = new GraphQLObjectType({
 		},
 		invoices: {
 			type: new GraphQLList(InvoiceType),
+			args: {
+				limit: {
+					type: GraphQLInt,
+				},
+			},
+			resolve: resolvers.invoices,
 		},
 	},
 });
@@ -73,6 +79,12 @@ const UserType = new GraphQLObjectType({
 		},
 		contracts: {
 			type: new GraphQLList(ContractType),
+			args: {
+				limit: {
+					type: GraphQLInt,
+				},
+			},
+			resolve: resolvers.contracts,
 		},
 	},
 });

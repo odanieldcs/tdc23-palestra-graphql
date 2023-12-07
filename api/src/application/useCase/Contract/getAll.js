@@ -4,4 +4,6 @@ function execute() {
 	return contractRepository.getAllContracts();
 }
 
-module.exports = execute;
+module.exports = {
+	execute,
+};

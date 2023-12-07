@@ -1,7 +1,8 @@
 const database = require('../../../data/database.json');
 
-function getAllContracts() {
-	return database.contracts;
+function getAllContracts(limit) {
+	const contracts = database.contracts.slice(0, limit);
+	return contracts;
 }
 
 function getContractByUser(userId) {
